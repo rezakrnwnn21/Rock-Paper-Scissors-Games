@@ -89,7 +89,7 @@ img {
 /* Container Dua */
 
 /* Responsive */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 576px) {
   body {
     background-color: bisque;
   }
@@ -134,13 +134,18 @@ img {
   }
 
   .reset-game img {
-    width: 9vmax;
+    width: 8vmax;
     height: 15vmin;
   }
 
   .player ul li img:hover {
     transition: 1s;
     transform: scale(1.5) rotate(360deg);
+  }
+
+  .reset-game ul li:hover {
+    transition: 1s;
+    transform: scale(1.1) rotate(360deg);
   }
 }
 /* Responsive */
